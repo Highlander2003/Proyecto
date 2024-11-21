@@ -1,0 +1,48 @@
+# Proyecto Vue y Flask
+
+Este proyecto combina un frontend desarrollado con Vue.js y un backend desarrollado con Flask.
+
+## Requisitos
+
+- Node.js (versión 14 o superior)
+- Python (versión 3.6 o superior)
+- npm (incluido con Node.js)
+- pip (incluido con Python)
+
+## Instalación
+
+### Clonar el repositorio
+
+```sh
+git clone <URL_DEL_REPOSITORIO>
+cd <NOMBRE_DEL_DIRECTORIO>
+
+Configuración del Frontend (Vue.js)
+Navega al directorio del frontend:
+cd frontend
+
+Instala las dependencias de Node.js:
+npm install
+
+Compila y recarga el proyecto para desarrollo:
+npm run dev
+
+(Opcional) Compila y minifica el proyecto para producción:
+npm run build
+
+(Opcional) Previsualiza la compilación de producción:
+npm run preview
+
+
+Configuración del Backend (Flask)
+Navega al directorio del backend:
+cd backend
+
+Crea un entorno virtual:
+venv\Scripts\activate
+
+Instala las dependencias de Python:
+pip install -r requirements.txt
+
+nicia el servidor de desarrollo de Flask:
+flask run
